@@ -1,3 +1,25 @@
+function addToCart() {
+    var price = document.getElementById("price").innerText;
+    var productName = document.getElementById("desc").innerText;
+
+    // Get the current cart from localStorage or initialize an empty array
+    var cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    // Create a new product object with the product name and price
+    var product = {
+        name: productName,
+        price: price
+    };
+
+    // Add the product to the cart array
+    cart.push(product);
+
+    // Store the updated cart back in localStorage
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    // Provide feedback to the user
+    window.alert('Product added to cart!');
+}
 function addProductToCart(productId) {
     const addToCartButtons = document.querySelectorAll('.add-to-cart-btn');
     addToCartButtons.forEach(button => {
