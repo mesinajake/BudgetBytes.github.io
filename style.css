@@ -1,0 +1,902 @@
+body {
+    margin: 0px;
+    background-color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 80px;
+    align-items: center;
+}
+
+#name {
+    color: white;
+}
+nav {
+    border: 0px solid;
+    margin: 0px;
+    text-align: center;
+    background-color:  white;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;    
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+nav a{
+    font-size: 12px;
+    text-align: center;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    gap: 9rem;
+}
+nav a:hover {
+    color: blue;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    position: relative;
+}
+main {
+    text-align: left;
+    margin: 0px;
+    margin-right: 0px;
+}
+.intro {
+    margin-left: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+
+}
+.intro1 {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: flex-start;
+    gap: 1rem;  
+
+}
+.intro2 {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: flex-start;
+    gap: 1rem;  
+
+}
+.intro3 {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: flex-start;
+    gap: 1rem;  
+
+}
+#name1 {
+    color: black;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 16.5px;
+}
+#start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.box1 {
+    margin-top: 25px;
+    border: 0px solid;
+    height: 750px;
+    background: linear-gradient(gray, black);
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+} 
+#box2 {
+    border: 0px solid;
+    margin-top: 70px;
+    margin-left: 80px;
+    height: 600px;
+    width: 1300px;
+    background: linear-gradient(rgb(89, 86, 86), #7b8f65, gray);
+    position: absolute;
+    display: flex;
+
+
+}
+#box3 {
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 0px solid;
+    background-color: white;
+    width: 250px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+
+
+}
+#box4 {
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 0px solid;
+    background-color: white;
+    width: 250px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+
+}
+#box5{
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 0px solid;
+    background-color: white;
+    width: 250px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+#box6 {
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 0px solid;
+    background-color: white;
+    width: 250px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+#productname {
+    color: white;
+    margin-left: 40px;
+    margin-top: 2px;
+    position: absolute;
+
+}
+#img {
+    margin-top: 15px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+#desc {
+    font-size: 6px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+#price{
+    font-size: 14px;
+
+}
+#buy {
+    background-color: #445D48;
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 1rem;
+    font-size: 16px;
+    width: 11em;
+    height: 40px;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+}
+#buy:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+   
+#buy:hover:not(:disabled) {
+    background: #FFCC70;
+    color: white;
+   }
+   
+#buy:disabled {
+    cursor: auto;
+    color: rgb(97, 96, 96);
+   }
+.sulit {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+.container {
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    border: 0px solid;
+    flex-direction: wrap;
+    position: relative;
+    display: flex;
+    scroll-snap-align: start;
+
+}
+.container1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 0px solid;
+    background: none;
+    flex-direction: wrap;
+    position: relative;
+    display: flex;
+    scroll-snap-align: start;
+}
+
+#deals {
+    margin-top: 3px;
+    margin-left: 20px;
+    border: 0px solid;
+    background-color: white;
+    width: 270px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: wrap;
+    border-radius: 30px;
+}
+.reviews {
+    margin-top: px;
+    justify-content: center;
+    position: absolute;
+}
+.customers {
+    margin-left: 40px;
+    border: 0px solid;
+    position: relative;
+    display: flex;
+    flex-direction: wrap;
+}
+#sayabout {
+    border: 0px solid;
+    background-color: white;
+    width: 330px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+#comments h5{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 13px;
+}
+#comments p {
+    margin-top: 0px;
+    font-weight: normal;
+}
+#namedate h6 {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+
+}
+#namedate p {
+    margin-top: 0px;
+    font-weight: normal;
+    font-style: italic;
+}
+hr {
+    margin-top: 340px;
+    height: 3px;
+    border-width: 0px;
+    color: black;
+    background-color: black;
+}
+.PCWise {
+    justify-content: left;
+    position: absolute;
+}
+#tech {
+    margin-right: 50px;
+    margin-left: 50px;
+
+
+}
+#tech p {
+    text-align: left;
+    font-size: 14px;
+}
+.end {
+    margin-top: 470px;
+    border: 0px solid;
+    height: 380px;
+    background-color: rgba(0, 0, 0, 0.819);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    left: 0;
+
+}
+.copyright {
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+    color: rgb(28, 28, 53);
+    
+}
+#service {
+    border: 0px solid;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: wrap;
+
+}
+#end1 {
+    margin-left: 12px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#end2 {
+    margin-left: 100px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#end2 a{
+    text-decoration: none;
+}
+#end3 {
+    margin-left: 400px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#title h4{
+    color: white;
+    text-align: left;
+    font-size: 19px;
+
+}
+#title h2 {
+    color: white;
+}
+#title a:link {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+
+}
+li {
+    font-size: 13px;
+    color: white;
+}
+#none {
+    pointer-events: none;
+}
+li:hover {
+    color: yellow;
+}
+.fa-facebook {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+.fa-facebook:hover {
+    color: blue;
+}
+.fa-instagram {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.fa-instagram:hover {
+    background: linear-gradient(#405DE6,#5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#777737,#FCAF45,#FFDC80);
+}
+#end3 p {
+    color: rgb(70, 188, 70);
+    font-size: 13px;
+
+}
+form {
+    align-items: center;
+    color:rgb(80, 197, 80)
+
+}
+form input {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 500px;
+}
+.auth-container {
+    width: 360px;
+    height: 450px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.auth-container h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+.auth-container p {
+    text-align: center;
+    font-size: 14px;
+}
+.tab {
+    overflow: hidden;
+    border: 2px solid #ccc;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+}
+.tab button {
+    background-color: inherent;
+    float: left;
+    border: none;
+    outline: none; 
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 15px 15px;             
+    transition: 0.3s;
+}
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+.tabcontent {
+    display: none;
+    padding: 5px;
+    border-top: none;
+}
+.tabcontent.active {
+    display: block;
+}
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+.auth-form input {
+    margin: 5px 0;
+    width: 290px;
+    height: 30px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.auth-form button {
+    margin-top: 5px;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+.auth-form button:hover {
+    color: black;
+    background: green;
+}
+.contact-container {
+    width: 700px;
+    height: 700px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.contact-container h2 {
+    text-align: center;
+}
+.contact-container p {
+    font-size: 14.8px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.contact-form {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input {
+    margin: 5px;
+    width: 550px;
+    height: 30px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form textarea {
+    width: 550px;
+    height: 100px;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form button {
+    margin-top: 5px;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background: green;
+    color: white;
+}
+header {
+    border: 0px solid;
+    padding: 8px;
+    margin: 0px;
+    text-align: left;
+    background-color:  rgb(70, 188, 70);
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;    
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.head{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: white;
+    gap: 9rem;
+}
+.logo {
+    top: 0px;
+    margin-left: 30px;
+    position: absolute;
+    display: flex;
+
+}
+.logo a:link {
+    color: white;
+    text-decoration: none;
+}
+.logo a:visited {
+    color: white;
+}
+.seach {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.seach_input {
+  height: 36px;
+  width: 750px;
+  border-radius: 20px;
+  border: none;
+  position: relative;
+  margin-top: 18.5px;
+  margin-left: 350px;
+  margin-bottom: 20px;
+}
+.seach_input::placeholder {
+  padding-left: 30px;
+  font-size: 1rem;
+}
+.fa-magnifying-glass {
+  position: absolute;
+  left: 1070px;
+  color: green;
+  bottom: 30px;
+
+}
+.fa-cart-shopping {
+    position: absolute;
+    border: 0px solid;
+    top: 27.9px;
+    right: 123px;
+    bottom: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.fa-cart-shopping:hover {
+    color:  blue;
+}
+.about {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+}
+.faqs {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px ;
+    text-align: left; 
+}
+.faqs p{
+    font-size: 15px
+}
+.monitor {
+    justify-content: center;
+    position: relative;
+    margin-top: 90px;
+
+}
+.speaker {
+    border: 0px solid;
+    justify-content: center;
+    position: relative;
+    margin-top: 90px;
+}
+.headset {
+    border: 0px solid;
+    justify-content: center;
+    position: relative;
+    margin-top: 90px;
+}
+.keyboard {
+    border: 0px solid;
+    justify-content: center;
+    position: relative;
+    margin-top: 90px;
+}
+.mouse {
+    border: 0px solid;
+    justify-content: center;
+    margin-top: 90px;
+    position: relative;
+}
+.studysetup {
+    justify-content: center;
+    position: absolute;
+    margin-top: 70px;
+}
+.officesetup {
+    border: 0px solid;
+    justify-content: center;
+    position: absolute;
+    margin-top: 1490px;
+}
+.gamingsetup {
+    border: 0px solid;
+    height: 1000px;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-top: 2000px;
+}
+.about p{
+    font-size: 15px;
+}
+.fa-user {
+    color: white;
+    position: absolute;
+    top: 28px;
+    bottom: 60px;
+    left: 1250px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.fa-user:hover {
+    color: blue;
+}
+.fa-location-dot {
+    position: absolute;
+    top: 28px;
+    left: 1280px;
+    bottom: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.fa-location-dot:hover {
+    color: blue;
+}
+#location h2 {
+    margin-top: 100px;
+    text-align: center;
+}
+#location p {
+    text-align: center;
+}
+#loc {
+    text-align: center;
+}
+.fa-star {
+    color: green;
+}
+#product {
+    margin-top: 100px;
+    border: 0px solid;
+    height: 380px;
+    background-color: rgba(0, 0, 0, 0.819);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    left: 0;
+    right: 0;
+}
+.cart-title {
+    margin-top: 90px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.640625rem;
+    color: rgb(31, 28, 28);
+    margin-bottom: 10px;
+    background-color: #9ADE7B#65B741;
+}
+.cartitems--container {
+    display: block;
+    height: 300px;
+}
+.cartitems {
+    display: block;
+    box-sizing: inherit;
+}
+.cartitems-empty {
+    height: 400px;
+    font-size: var(--font-size-body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 388px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    border: 4px solid rgba(246, 238, 238, 0.956);
+    box-shadow: 0 1px 4px #968a8a0f;
+    background: linear-gradient(#9ADE7B,#C1F2B0);
+}
+.cart-container {
+    box-sizing: inherit;
+    display: block;
+    color: white;
+}
+.cartitems-empty--inner .button-primary {
+    font-size: var(--font-size-button-medium);
+    padding: 0.75rem 1.125rem;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.cartitems-empty--inner .button-primary {
+    text-transform: none;
+}
+.cart-continue {
+    font-size: var(--font-size-body);
+    display: block;
+    margin-right: 50px;
+    text-decoration: none;
+    color: rgb(31, 28, 28);
+
+}
+.cart-continue:hover{
+    color: rgb(66, 191, 66);
+}
+/* Dropdown Button */
+.dropbtn {
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    margin: 0px;
+    display: none;
+    position: absolute;
+    width: 200px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    min-width: 160px;
+    box-shadow: 10px 0px 16px 12px rgba(159, 153, 153, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(184, 176, 176);
+    color: black;
+
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+#cart-items {
+    position: relative;
+    justify-content: center;
+    top: 0%; /* Adjust as needed */
+    transform: translateY(-50%);
+    font-size: 10px;
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border: 0px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
